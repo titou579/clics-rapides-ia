@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clics Rapides</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Clics Rapides</h1>
+    <p>Tu as 10 secondes pour cliquer le plus de fois possible sur le bouton !</p>
+    <div id="game-area">
+      <button id="click-button" disabled>Commencer</button>
+      <div id="info">
+        <span>Temps restant : <span id="time">10</span>s</span>
+        <span>Score : <span id="score">0</span></span>
+      </div>
+    </div>
+    <button id="start-button">Démarrer le jeu</button>
+    <div id="result" class="hidden"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
