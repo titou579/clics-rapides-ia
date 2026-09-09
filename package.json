@@ -1,0 +1,14 @@
+{
+  "name": "clics-rapides",
+  "version": "1.0.0",
+  "description": "Jeu simple de clics rapides en 10 secondes",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s ."
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
